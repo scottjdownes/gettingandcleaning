@@ -4,17 +4,20 @@ Codebook for Course Project
 ##Fields in dataset
 ###Identifying fields
 All data is aggregated across the following dimensions. 
+
 *subject* 
+
 The subject is an ID representing the individual for whom the measurements were taken.
 
 *activityName*
+
 The activityName field represents the human readable version of the activity the test subject was performing at the time of the measurement.
 
 ###Measurements
 The remaining fields represent means over a collection of measurements. In some cases, these represents means of standard deviations. In other cases, they are mmeans of means. The list is quite long as it represents all meaningful measurements taken against the subject and activity.
 
 Note the measurements are typically recorded with x, y, and z coordinates. The relevant areas below are grouped accordingly.
-                   
+
 *tBodyAcc.std...X* 
 *tBodyAcc.std...Y*          
 *tBodyAcc.std...Z*    
