@@ -15,7 +15,7 @@ The remaining fields represent means over a collection of measurements. In some 
 
 Note the measurements are typically recorded with x, y, and z coordinates. The relevant areas below are grouped accordingly.
                    
-*tBodyAcc.std...X*
+*tBodyAcc.std...X* 
 *tBodyAcc.std...Y*          
 *tBodyAcc.std...Z*    
 
