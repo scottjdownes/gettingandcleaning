@@ -61,5 +61,5 @@ aggregateData <- aggregate(fulldata[,4:82], by=list(subject = fulldata$subject, 
 aggregateDataSorted <- aggregateData[order(aggregateData$subject, aggregateData$activity),]
 
 # Finally, we will write out this sorted data to a table to make it easy to import back into R.
-write.table(aggregateDataSorted, "./data/finaloutput.txt")
+write.table(aggregateDataSorted, "./data/finaloutput.txt", row.name = FALSE)
 
